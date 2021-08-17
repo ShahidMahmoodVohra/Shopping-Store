@@ -8,20 +8,23 @@
 </head>
 <body>
 <h2>Registration</h2>
+<fieldset>
 <p> 
 <form action="./success.html">
-    
-    <button><a href="./login.html">Login page</a></button>
+  <fieldset>
+      <legend>Login</legend> 
+       <p> <label for="name">Username</label>     
+        <input id="name" size="30px" maxlength="35px" type="text" />  </p> 
+        <p>email address:
+            <input type="email" name="email" size="26px" maxlength="30px" /> </p>        
+<p>  <label for="password">Password:</label>  
+<input id="password" size="30px" maxlength="15px" type="password" /> </p> 
 
-    
-   
-  
-    
+                      <pre> 
+                         <button >Login</button>  
+                                    </pre>  <br /> </fieldset> <br />
 
-   
-
-        
-    <fieldset>
+ <fieldset>
         <legend>Personal Information</legend>
         <label for="name">Name:</label>     
     <input id="name" size="30px" maxlength="35px" type="text" />  </p> 
@@ -43,18 +46,23 @@
 
   <p>  <label for="address">Address:</label>
              <input type="url" id="address" name="address"> </p>
- </fieldset>
+ </fieldset> <br />
 
  <fieldset>
  <legend>Shipping Information</legend>
  
  <textarea placeholder="ENTER YOU POSTAL ADDRESS,CITY,POSTAL CODE" rows="8px" col="40px">
     ENTER YOU POSTAL ADDRESS,CITY,POSTAL CODE......  </textarea>
- </fieldset>
+ </fieldset> <br />
+
+ <pre>
+                                                              <button>Submit</button>
+ </pre>
 
 
- <form action="./success.html">   <br />
-
+ <form action="./success.html">   <br /> </fieldset>
+    
+   <p> <button><a href="./login.html">Login page</a></button> </p>
  <button><a href="./index.html">Back to Home Page</a></button>    
    
     </form>
